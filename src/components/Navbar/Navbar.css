@@ -1,0 +1,59 @@
+.Navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: transparent !important;
+    font-family: 'Roboto Serif', serif;
+    z-index: 1;
+}
+
+.NavbarLogo a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+}
+
+.NavbarOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+ background-color: transparent;
+ color: black;
+ border: none;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.NavbarOptions a {
+    margin-right: 15px;
+    margin-left: 15px;
+    /* border-right: solid 1px white; */
+}
+
+.Navbar img {
+    height: 80px;
+    width:80px;
+}
+
+.NavbarOptions img {
+    height: 30px;
+    width:30px;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+}

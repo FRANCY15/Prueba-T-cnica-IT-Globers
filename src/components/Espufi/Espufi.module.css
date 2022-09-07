@@ -1,0 +1,30 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.collage {
+    width: 500px;
+    height: 400px;
+    margin: 50px;
+}
+
+h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 14px;
+    color: gray;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: bold;
+}

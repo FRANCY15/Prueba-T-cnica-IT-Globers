@@ -1,0 +1,24 @@
+input, button{
+    text-decoration: none;
+    border: transparent;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+
+fieldset {
+    border: solid 1px black;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 10px;
+}

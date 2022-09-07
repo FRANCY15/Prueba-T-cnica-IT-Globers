@@ -1,0 +1,26 @@
+.Container img{
+    height: 100vh;
+}
+.sectionButton {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: -200px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.sectionButton h2 {
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.sectionButton button {
+    border: solid 2px black;
+    background-color: transparent;
+    color: black;
+    width: 130px;
+    height: 50px;
+}

@@ -1,0 +1,67 @@
+.containerRain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    margin-top: 60px;
+}
+
+.containerRain h1  {
+    z-index: 1px;
+    color: red;
+    font-size: x-large;
+}
+
+.shop {
+    background-image: url('../../assets/img/peopleUmbrella.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop button {
+    border: solid 2px black;
+    background-color: transparent;
+    color: black;
+    width: 130px;
+    height: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.info img {
+    width: 80px;
+    height: 80px;
+}
+
+.info a {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info a img {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border-top: solid 2px #040404;
+    width: 30px;
+    opacity: .25;
+}
